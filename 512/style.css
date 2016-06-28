@@ -1,0 +1,84 @@
+body {
+	text-align: center;
+	margin-top: 30px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+h1 {
+	font-size: 70px;
+	margin-bottom: -20px;
+}
+
+.board {
+  display: fixed;
+}
+
+.cell {
+	width:100px;
+	height:100px;
+	display: inline-block;
+  background-color: rgb(255, 84, 84);
+	color: white;
+	text-align: center;
+	box-sizing: border-box;
+  overflow: hidden;
+  font-size: 40px;
+  padding-top: 25px;
+font-family: 'Montserrat', sans-serif;
+  position: relative;
+    -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.blank {
+	background-color: #FFF59E;
+}
+
+@-webkit-keyframes pop {
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+@keyframes pop {
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+.pop {
+  -webkit-animation-name: pop;
+  animation-name: pop;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+button {
+	margin-top: 20px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 28px;
+  background: #ff8c78;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+  outline:none;
+}
+
+button:hover {
+  background: #fc3c3c;
+  text-decoration: none;
+}
+
+.end {
+	margin-bottom: 10px;
+}
