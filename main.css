@@ -42,11 +42,11 @@ a {
 
 .name-box {
   padding: 3vw;
-  border: 3px solid white;
+  border: 5px solid white;
 }
 
 .mini-name-box{
-  padding: 1vw;
+  padding: 10px;
   border: 3px solid #414753;
 
 }
@@ -64,7 +64,7 @@ a {
 }
 
 .footer-title{
-    font-size: 2vw;
+    font-size: 2em;
     font-family: "Lato";
     color: #414753;
     font-weight: bold;
