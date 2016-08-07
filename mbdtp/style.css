@@ -1,0 +1,266 @@
+body{
+	margin: 0;
+  cursor: crosshair;
+}
+
+h1, p {
+    margin: 0;
+}
+
+.asapferg-container{
+	background: url(img/asapferg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.asapferg-container h1{
+	background: url(img/asapferg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 21vw;
+	font-family: 'Gravitas One', cursive;
+	text-transform: uppercase;
+}
+
+.earthgang-container{
+	background: url(img/earthgang.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.earthgang-container h1{
+	background: url(img/earthgang.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 22vw;
+font-family: 'Mogra', cursive;
+	text-transform: uppercase;
+}
+
+.tunjiige-container{
+	background: url(img/tunjiige.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.tunjiige-container h1{
+	background: url(img/tunjiige.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 21vw;
+font-family: 'Chau Philomene One', sans-serif;
+	text-transform: uppercase;
+}
+
+.bryantdope-container{
+	background: url(img/bryantdope.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bryantdope-container h1{
+	background: url(img/bryantdope.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 20vw;
+	font-family: 'Teko', sans-serif;
+	text-transform: uppercase;
+}
+
+.vicmensa-container{
+	background: url(img/vicmensa.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.vicmensa-container h1{
+	background: url(img/vicmensa.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 15vw;
+font-family: 'Rock Salt', cursive;
+}
+
+.runthejewels-container{
+	background: url(img/runthejewels.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.runthejewels-container h1{
+	background: url(img/runthejewels.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 20vw;
+	font-family: 'Permanent Marker', cursive;
+	text-transform: uppercase;
+	padding-top: 20vh;
+  height: 80vh;
+
+}
+
+.towkio-container{
+	background: url(img/towkio.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.towkio-container h1{
+	background: url(img/towkio.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 23vw;
+	font-family: 'Reem Kufi', sans-serif;
+	text-transform: uppercase;
+}
+
+.chance-container{
+	background: url(img/chance.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.chance-container h1{
+	background: url(img/chance.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 15vw;
+	font-family: 'Amatica SC', cursive;
+	text-transform: uppercase;
+}
+
+.jamie-container{
+	background: url(img/jamiexx.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jamie-container h1{
+	background: url(img/jamiexx.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 22vw;
+font-family: 'Questrial', sans-serif;
+
+}
+
+.lean-container{
+	background: url(img/yunglean.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.lean-container h1{
+	background: url(img/yunglean.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 22vw;
+	font-family: 'Megrim', cursive;
+	text-transform: uppercase;
+
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+
+}
+
+.overlay {
+    background: #232323;
+    color: white;
+    height: 100vh;
+    transition: opacity 0.4s ease;
+}
+
+.container h1 {
+    left: 0;
+    line-height: 100%;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.single-line h1{
+	height: 75vh;
+	padding-top: 25vh;
+}
+
+.two-line h1{
+	height: 87vh;
+	padding-top: 13vh;
+}
+
+.topbar{
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+  color: white;
+  padding: 15px;
+  background: #151414;
+  letter-spacing: 10px;
+}
+
+.footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column-reverse;
+	height: 300px;
+	color: white;
+	background: #151414;
+}
+
+.footer-name{
+	padding-top: 15px;
+		font-family: 'Oswald', sans-serif;
+
+}
+
+.mini-name-box{
+  padding: 10px;
+  border: 3px solid white; 
+  color: white;
+}
+
+.mini-name-box:hover{
+	border: 3px solid orangered; 
+	color: orangered;
+}
+
+.footer-title{
+    font-size: 2em;
+    font-family: "Lato";
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+	text-decoration: none;
+
+}
