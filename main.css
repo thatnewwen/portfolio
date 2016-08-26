@@ -85,6 +85,7 @@ a {
 .about-div{
   height: 100vh;
   display: flex;
+  font-size: 2vw;
 }
 
 .about-div h1{
@@ -99,7 +100,6 @@ a {
   padding-right: 20px;
 
   padding-top: 100px;
-  font-size: 2vw;
   background-color: #E91E63;
   color: white;
 }
@@ -110,7 +110,6 @@ a {
   padding-left: 20px;
   padding-right: 25px;
   padding-top: 100px;
-  font-size: 2vw;
   background-color: white;
   color: #E91E63;
 
@@ -226,7 +225,7 @@ font-family: 'Cutive Mono', monospace;
 .empiretaste{
   height: 100vh;
   position: relative;
-  border: 5px solid rgb(255, 239, 98);
+  border: 5px solid #ff80ad;
 font-family: 'Roboto Slab', serif;
 
 }
@@ -246,14 +245,14 @@ font-family: 'Roboto Slab', serif;
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.72);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .empire{
   display: block;
   clear: both;
   font-size: 40px;
-  color: rgb(255, 239, 98);
+  color: #ff80ad;
 }
 
 .empire:hover{
@@ -262,7 +261,7 @@ font-family: 'Roboto Slab', serif;
 
 .line{
   width: 80%;
-  border: 1px dotted rgba(255, 239, 98, 0.2);;
+  border: 1px dotted #ff80ad;
   margin-top: 15px;
 }
 
@@ -272,7 +271,7 @@ font-family: 'Roboto Slab', serif;
   left: 0;
   margin: 40px;
   width: 40%;
-  color: rgb(255, 239, 98);
+  color: #ff80ad;
 }
 
 .picture-bio{
@@ -281,13 +280,12 @@ font-family: 'Roboto Slab', serif;
   right: 0;
   margin: 40px;
   width: 25%;
-  color: rgb(255, 239, 98);
+  color: #ff80ad;
   text-align: right;
 }
 
 .picture-bio a{
-  color: rgb(255, 239, 98);
-
+  color: #ff80ad;
 }
 
 .code{
@@ -375,9 +373,6 @@ a.tagline:hover {
   margin-bottom: -10px;
 }
 
-
-
-
 .writing-header{
   margin-bottom: 30px;
   height: 10vh;
@@ -436,4 +431,58 @@ a.tagline:hover {
 
 .about h3{
   color: #5d5d5d;
+}
+
+@media screen and (max-width: 480px) {
+  .code{
+    font-size: 3.9vw;
+  }
+
+  .about-div {
+    flex-direction: column;
+    font-size: large;
+  }
+
+  .technical-div, .creative-div {
+    text-align: center;
+    padding-top: 50px;
+    width: auto;
+    height: 50%;
+  }
+
+}
+
+.mbdtp{
+  position: relative;
+  height: 100vh;
+}
+
+.mbdtp h1 {
+  background: url(mbdtp/img/chance.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-transform: uppercase;
+  font-size: 18vw;
+  line-height: 100%;
+  position: relative;
+  font-family: 'BenchNine', sans-serif;
+  text-align: center;
+  width: 100%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin: 0px;
+}
+
+.mbdtp-overlay {
+  background: #232323;
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  transition: background 1.5s ease;
+}
+
+.mbdtp-overlay:hover{
+  background: #e2e2e2;
 }
