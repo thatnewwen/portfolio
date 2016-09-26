@@ -481,8 +481,9 @@ a.tagline:hover {
   display: flex;
   align-items: center;
   transition: background 1.5s ease;
+  overflow: hidden;
 }
 
 .mbdtp-overlay:hover{
-  background: #e2e2e2;
+  background: #2b2b2b;
 }
